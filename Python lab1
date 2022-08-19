@@ -1,0 +1,15 @@
+"""Lab-1: Write a function which return all the unique palindromes from a given string"""
+
+# Input taken from user 
+a = input("\nEnter your string --> ")
+
+# Revers the string 
+# Like --> abcde = edcba 
+r = (a[::-1])
+
+# Checking the strings are same or not
+# By using if-else statements
+if r == a:
+    print("This string is palindrome")
+else:
+    print("This string is not palindrome")
